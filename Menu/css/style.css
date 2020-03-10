@@ -1,0 +1,21 @@
+#menu {
+  widows: 100%;
+  background: #d75893;
+  margin: 0px; }
+  #menu ul {
+    width: 800px;
+    margin: 0 auto;
+    list-style-type: none; }
+    #menu ul li {
+      display: inline; }
+      #menu ul li a {
+        line-height: 0;
+        padding: 20px 15px;
+        display: inline-block;
+        color: white;
+        text-decoration: none; }
+        #menu ul li a:hover, #menu ul li a:focus {
+          background: white;
+          color: #d75893; }
+
+/*# sourceMappingURL=style.css.map */

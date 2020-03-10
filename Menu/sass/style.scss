@@ -1,0 +1,28 @@
+$cor-hover:white;
+$cor-principal:#d75893;
+$altura-menu:40px;
+
+#menu{
+	widows: 100%;
+	background: $cor-principal;
+	margin: 0px;
+	ul{
+		width: 800px;
+		margin: 0 auto;
+		list-style-type: none;
+		li{
+			display: inline;
+			a{
+				line-height: 0;
+				padding: $altura-menu/2 15px;
+				display: inline-block;
+				color: $cor-hover;
+				text-decoration: none;
+				&:hover,&:focus{
+					background: $cor-hover;
+					color:$cor-principal;
+				}	
+			}
+		}
+	}
+}
